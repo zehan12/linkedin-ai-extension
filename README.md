@@ -26,8 +26,4 @@ npm run build
 This should create a production bundle for your extension, ready to be zipped and published to the stores.
 
 ## Video Demonstration
-
-<video width="100%" controls>
-  <source src="video/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/zehan12/Chat_GPT_Writer_Task/assets/73664886/126960ab-650b-41f5-87cf-9b93a9fd4cda
