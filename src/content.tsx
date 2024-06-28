@@ -21,7 +21,6 @@ export const getOverlayAnchor: PlasmoGetOverlayAnchor = async () =>
   document.querySelector(".msg-form__contenteditable");
 
 const PlasmoOverlay = () => {
-  console.log("new code now mf")
   const [isFocused, setFocused] = useState<boolean>(false);
   const [isModalVisible, setModalVisible] = useState<boolean>(false);
 
@@ -78,4 +77,5 @@ const PlasmoOverlay = () => {
   );
 };
 
+PlasmoOverlay.displayName = "PlasmaOverlay";
 export default PlasmoOverlay;
