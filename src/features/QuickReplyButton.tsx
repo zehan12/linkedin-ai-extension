@@ -1,7 +1,14 @@
 import wandSparklesIcon from "../assets/wand_sparkles.png";
 import sparklesIcon from "../assets/sparkles.png";
+import type { FC } from "react";
 
-const QuickReplyButton = ({ isFocused, isModalVisible, handleModalOpen }) => {
+interface QuickReplyButtonProps {
+    isFocused: boolean;
+    isModalVisible: boolean;
+    handleModalOpen: () => void;
+}
+
+const QuickReplyButton: FC<QuickReplyButtonProps> = ({ isFocused, isModalVisible, handleModalOpen }) => {
     return (<div
         className="flex flex-row items-center absolute top-28 -right-[400px]"
 
@@ -13,7 +20,7 @@ const QuickReplyButton = ({ isFocused, isModalVisible, handleModalOpen }) => {
         {
             isFocused &&
             <button onClick={handleModalOpen} className="w-12">
-                <img  alt="wand_sparkles" src={wandSparklesIcon} />
+                <img alt="wand_sparkles" src={wandSparklesIcon} />
             </button>
         }
     </div>)
