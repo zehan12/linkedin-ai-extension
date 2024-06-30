@@ -50,6 +50,7 @@ npm run build
 This should create a production bundle for your extension, ready to be zipped and published to the stores.
 
 ### Technology Stack
+
 * HTML5
 * Tailwind CSS
 * TypeScript
