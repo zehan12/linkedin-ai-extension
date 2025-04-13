@@ -1,4 +1,4 @@
-# ChatGPT Writer Task
+# LinkedIn AI
 
 The LinkedIn AI Reply Chrome Extension simplifies message replies on LinkedIn with dynamic AI assistance, featuring modal interaction for command input and response generation. Built with React, TypeScript, and Tailwind CSS, it evaluates candidates on problem-solving, design fidelity, and execution speed.
 
